@@ -1,0 +1,8 @@
+{
+   "compilerOptions": {
+        "outDir": "dist/js", // Salva todas as coisas compiladas na pasta informada
+        "target": "ES6", // Converte tudo para a versão 6 do JS
+        "noEmitOnError": true, // Não vai gerar ada enquanto o typeScript estiver com erro
+   },
+   "include": ["app/**/*"] // Caminho da onde será puxado os arquivos ts
+}
