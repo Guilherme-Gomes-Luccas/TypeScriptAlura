@@ -7,6 +7,7 @@
         "removeComments": true, // Irá remover todos os comentrários que seriam gerados
         "strictNullChecks": true, // Ao ativar, o typeScript obriga o desenvolvedor a tratar casos em que algo pode ser nulo
         "experimentalDecorators": true, // Ativa a utilização de decorators "experimentais"
+        "sourceMap": true, // Ativa a criação de sourceMap para debbugar dentro do navegador
    },
    "include": ["app/src/**/*"] // Caminho da onde será puxado os arquivos ts
 }
